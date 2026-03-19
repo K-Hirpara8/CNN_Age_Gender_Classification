@@ -1,4 +1,4 @@
-# 👩‍💻 CNN-Based Gender and Age Classification
+# CNN-Based Gender and Age Classification
 
 ## 📌 Overview
 
