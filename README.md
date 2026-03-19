@@ -1,10 +1,10 @@
-# CNN-Based Gender and Age Classification
+# 👩‍💻 CNN-Based Gender and Age Classification
 
 ## 📌 Overview
 
 This project focuses on gender and age-group classification using Convolutional Neural Networks (CNNs). The model is trained on labeled facial image datasets and evaluated on validation data to analyze classification performance.
 
-The objective was to gain practical experience in supervised deep learning for image-based prediction tasks and understand how preprocessing and architecture choices influence model accuracy.
+The goal of this project was to gain hands-on experience in supervised deep learning for image-based prediction tasks and understand how preprocessing and architectural choices influence model performance.
 
 ---
 
@@ -21,12 +21,36 @@ The objective was to gain practical experience in supervised deep learning for i
 ## ⚙️ Implementation Details
 
 - Image preprocessing (resizing, normalization)
-- CNN model design and training
-- Validation and evaluation
-- Performance comparison across configurations
-- Inference on single images
+- Dataset splitting (training / validation)
+- CNN architecture design and training
+- Model evaluation
+- Inference pipeline for single images
 
-The project emphasizes understanding the full workflow — from data preparation to evaluation.
+The project emphasizes understanding the full workflow — from raw image data to final predictions.
+
+---
+
+## 📊 Results & Observations
+
+- The model successfully learned distinguishable facial features for gender classification.
+- Age-group prediction performance depended on class balance and dataset quality.
+- Model accuracy improved after adjusting architecture depth and training epochs.
+- Proper normalization and consistent image resizing significantly stabilized training.
+
+The experiments helped me understand how model structure and preprocessing choices directly impact learning behavior.
+
+---
+
+## 🖼 Example Inference
+
+After training, the model can:
+
+- Take a single facial image as input
+- Preprocess it consistently
+- Predict gender category
+- Predict age group category
+
+This demonstrates how a trained CNN can be integrated into a simple inference pipeline.
 
 ---
 
@@ -41,7 +65,8 @@ The project emphasizes understanding the full workflow — from data preparation
 ## 🛠 Technologies Used
 
 - Python
-- TensorFlow / Keras
+- TensorFlow
+- Keras
 - NumPy
 - Pandas
 - OpenCV
@@ -77,4 +102,5 @@ Run all cells sequentially to:
 - Designing CNN architectures for image classification
 - Importance of image preprocessing and normalization
 - Evaluating deep learning models properly
-- Understanding how architectural decisions affect training behavior
+- Understanding how architecture depth influences accuracy
+- Building a basic inference pipeline for trained models
