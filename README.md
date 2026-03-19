@@ -1,25 +1,45 @@
-# CNN-Based Gender and Age Classification
+# 👩‍💻 CNN-Based Gender and Age Classification
 
-## Overview
-This project focuses on gender and age-group classification from facial images using convolutional neural networks (CNNs). The goal is to train and evaluate deep learning models that can predict gender and age categories based on facial image features.
+## 📌 Overview
 
-## Model
-- CNN-based classification models implemented in Python
-- Trained using supervised learning on facial image datasets
-- Model evaluation performed using standard performance metrics
+This project focuses on gender and age-group classification using Convolutional Neural Networks (CNNs). The model is trained on labeled facial image datasets and evaluated on validation data to analyze classification performance.
 
-## Data
-- Facial image datasets labeled with gender and age-group information
-- Images preprocessed and resized before training
-- Dataset split into training and validation sets
+The objective was to gain practical experience in supervised deep learning for image-based prediction tasks and understand how preprocessing and architecture choices influence model accuracy.
 
-## Implementation Details
-- Image preprocessing including resizing and normalization
-- CNN model training and validation
-- Performance evaluation and comparison of different network configurations
-- Inference performed on individual facial images
+---
 
-## Tools & Libraries
+## 🧠 Model Approach
+
+- Facial images are resized and normalized before training.
+- The dataset is divided into training and validation sets.
+- CNN models are implemented using TensorFlow / Keras.
+- Performance is evaluated using standard classification metrics.
+- The trained model is used to generate predictions on individual input images.
+
+---
+
+## ⚙️ Implementation Details
+
+- Image preprocessing (resizing, normalization)
+- CNN model design and training
+- Validation and evaluation
+- Performance comparison across configurations
+- Inference on single images
+
+The project emphasizes understanding the full workflow — from data preparation to evaluation.
+
+---
+
+## 📂 Project Structure
+
+    ├── Age & Gender Final.ipynb
+    ├── README.md
+    ├── requirements.txt
+
+---
+
+## 🛠 Technologies Used
+
 - Python
 - TensorFlow / Keras
 - NumPy
@@ -27,8 +47,34 @@ This project focuses on gender and age-group classification from facial images u
 - OpenCV
 - Matplotlib
 
-## Learning Outcomes
-- Practical experience with CNN-based image classification
-- Understanding the role of image preprocessing in model performance
-- Experience in evaluating and comparing deep learning models
-- Hands-on exposure to image-based machine learning workflows
+---
+
+## 📥 Installation
+
+Install required libraries:
+
+    pip install -r requirements.txt
+
+---
+
+## ▶️ Running the Project
+
+Open the notebook:
+
+    Age & Gender Final.ipynb
+
+Run all cells sequentially to:
+
+- Load and preprocess the dataset
+- Train the CNN model
+- Evaluate validation performance
+- Generate predictions
+
+---
+
+## 🎯 What I Learned
+
+- Designing CNN architectures for image classification
+- Importance of image preprocessing and normalization
+- Evaluating deep learning models properly
+- Understanding how architectural decisions affect training behavior
